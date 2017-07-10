@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/f_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="我的好友"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="35dp"
+        />
+    <!--<TextView-->
+        <!--android:id="@+id/f_id"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="编号"-->
+        <!--android:layout_toRightOf="@+id/f_name"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="30dp"/>-->
+
+</RelativeLayout>

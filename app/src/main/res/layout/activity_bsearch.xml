@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.recruitdemo.BaoGe.BSearchActivity"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/sfinish"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="搜索"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/sou"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="搜索你想查找的内容"
+            />
+        <Button
+            android:id="@+id/sSearch"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="搜索"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textColor="#CCCCCC"
+        android:text="---------------在这里可以搜索到---------------"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="学生姓名"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#CCCCCC"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="推荐人"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#CCCCCC"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="负责人"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#CCCCCC"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="标题"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#CCCCCC"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="内容"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#CCCCCC"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="电话号码"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="#CCCCCC"/>
+
+    </LinearLayout>
+</LinearLayout>

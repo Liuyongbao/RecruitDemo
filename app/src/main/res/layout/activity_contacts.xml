@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.recruitdemo.SiNong.ContactsActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="标题栏"
+        android:background="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <ExpandableListView
+        android:id="@+id/elv"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"/>
+
+</LinearLayout>

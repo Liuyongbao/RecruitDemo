@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#f5f5f5"
+
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:id="@+id/ll"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:orientation="horizontal">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="性别:"
+              android:gravity="center"
+              android:textColor="@color/blues"
+              android:textSize="18sp"
+              android:layout_marginLeft="10dp"/>
+          <TextView
+              android:id="@+id/shezhi"
+              android:layout_marginTop="2dp"
+              android:layout_alignParentRight="true"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="取消"
+              android:gravity="center"
+              android:textColor="@color/blues"
+              android:textSize="18sp"
+              android:layout_marginLeft="185dp"/>
+      </LinearLayout>
+
+       <TextView
+           android:layout_marginTop="5dp"
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/blues"
+           android:layout_below="@id/ll"/>
+
+       <LinearLayout
+           android:layout_below="@+id/xiugai"
+           android:layout_width="match_parent"
+           android:layout_height="110dp"
+           android:orientation="vertical"
+           >
+
+
+           <TextView
+               android:id="@+id/nan"
+               android:layout_width="match_parent"
+               android:layout_height="54dp"
+               android:text="男"
+               android:layout_gravity="center"
+               android:textSize="18sp"
+               android:gravity="center"
+               android:textColor="@color/black"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#D0D0D0"/>
+           <TextView
+               android:id="@+id/nv"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="55dp"
+               android:text="女"
+               android:layout_gravity="center"
+               android:textSize="18sp"
+               android:gravity="center"
+               android:textColor="@color/black"
+               />
+           <TextView
+               android:layout_marginTop="15dp"
+               android:gravity="center"
+               android:layout_gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#D0D0D0"/>
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+</RelativeLayout>

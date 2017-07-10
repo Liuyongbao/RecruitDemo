@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.recruitdemo.MyStudentActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/mFinish"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="我的学生"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D0D0D0"
+        />
+
+    <Button
+        android:id="@+id/mEnter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginLeft="44dp"
+        android:text="录入"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/mLink"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginLeft="44dp"
+        android:text="沟通"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/mArrive"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginLeft="44dp"
+        android:text="到校"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/mPre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="30dp"
+        android:text="预报名"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/mEnrol"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="30dp"
+        android:text="入学"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        />
+</LinearLayout>

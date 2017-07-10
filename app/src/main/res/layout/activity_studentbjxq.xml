@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--学生信息展示-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:text="  学生信息"
+                android:background="#e0e0e0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D0D0D0"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="姓名"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="肖辉"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="姓别"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_sex"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="男"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            android:shadowDx="200"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="身份证"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_id"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="142723199710080831"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            android:shadowDx="200"
+                            />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="联系方式"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_phone"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="13621081214"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="录入时间"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_time"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="状态"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="行政区域"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_zone"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D0D0D0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:text="  家庭详情"
+                android:background="#e0e0e0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D0D0D0"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="家庭住址"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_address"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="家长姓名"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_parents"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="联系方式"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_parentsPhone"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D0D0D0"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="与本人关系"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/tv_guanxi"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="未设置"
+                            android:textSize="16sp"
+                            android:gravity="right"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:text="  所在部门"
+                    android:background="#e0e0e0"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFF">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="部门"
+                                android:gravity="center_vertical"/>
+
+                            <TextView
+                                android:id="@+id/tv_bumen"
+                                android:layout_width="250dp"
+                                android:layout_height="wrap_content"
+                                android:text="未设置"
+                                android:textSize="16sp"
+                                android:gravity="right"
+                                />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#D0D0D0"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="负责人"
+                                android:gravity="center_vertical"/>
+
+                            <TextView
+                                android:id="@+id/tv_fuzeren"
+                                android:layout_width="250dp"
+                                android:layout_height="wrap_content"
+                                android:text="未设置"
+                                android:textSize="16sp"
+                                android:gravity="right"
+                                />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#D0D0D0"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="负责人电话"
+                                android:gravity="center_vertical"/>
+
+                            <TextView
+                                android:id="@+id/tv_f_phone"
+                                android:layout_width="250dp"
+                                android:layout_height="wrap_content"
+                                android:text="未设置"
+                                android:textSize="16sp"
+                                android:gravity="right"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:text="  学生背景详情"
+                    android:background="#e0e0e0"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#FFFF">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="详细概况"
+                                android:gravity="center_vertical"/>
+
+                            <TextView
+                                android:id="@+id/tv_notes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="未设置"
+                                android:textSize="16sp"
+                                />
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Student">
+        <item>沟通</item>
+        <item>到校</item>
+        <item>预报名</item>
+        <item>入学</item>
+    </string-array>
+
+</resources>
